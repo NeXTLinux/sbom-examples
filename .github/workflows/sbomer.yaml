@@ -26,7 +26,7 @@ jobs:
 
       - name: Installl gosbom
         run: |
-          curl -sSfL https://raw.githubusercontent.com/nextlinux/gosbom/main/install.sh | sh -s -- -b ./ v0.48.0
+          curl -sSfL https://raw.githubusercontent.com/nextlinux/gosbom/main/install.sh | sh -s -- -b ./ v0.79.0
 
       - name: Generate input images
         run: |
